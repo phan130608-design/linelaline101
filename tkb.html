@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Thời khóa biểu</title>
+</head>
+<body>
+
+    <h1>Example: Student Timetable</h1>
+    <table border="1" width="60%">
+        <p><caption align="center"><b>Student Timetable - Semester 1</b></caption></p>
+        <thead>
+            <tr bgcolor="silver" height="35">
+                <th width="12%">Period</th>
+                <th width="12%">Monday</th>
+                <th width="19%">Tuesday</th>
+                <th width="19%">Wednesday</th>
+                <th width="19%">Thursday</th>
+                <th width="19%">Friday</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th height="35" align="center" >Period 1</th>
+                <td>Math</td>
+                <td rowspan="2">Programming</td>
+                <td>English</td>
+                <td>Web Design</td>
+                <td>Math</td>
+            </tr>
+            <tr>
+                <th height="35" align="center" >Period 2</th>
+                <td>History</td>
+                <td>Science</td>
+                <td>English</td>
+                <td>PE</td>
+            </tr>
+            <tr bgcolor="lightgray">
+                <td colspan="6" height="35" align="center"><b>Lunch Break</b></td>
+            </tr>
+            <tr>
+                <th height="35" align="center" >Period 3</th>
+                <td colspan="2" align="center">Project Work</td>
+                <td>Math</td>
+                <td>Programming</td>
+                <td>Free</td>
+            </tr>
+            <tr>
+                <th height="35" align="center" >Period 4</th>
+                <td>English</td>
+                <td>History</td>
+                 <td rowspan="2">Science Lab</td>
+                <td>Web Design</td>
+                <td>Math</td>
+            </tr>
+            <tr>
+                <th height="35" align="center" >Period 5</th>
+                <td>PE</td>
+                <td>Math</td>
+                <td>English</td>
+                <td>Programming</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr bgcolor="lightgray">
+                <td colspan="6" height="35" align="center">
+                    Note: This timetable is subject to change.
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+</html>
